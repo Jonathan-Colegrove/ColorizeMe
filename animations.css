@@ -1,0 +1,17 @@
+body {
+  background-color: black;
+  margin:auto;
+  text-align: center;
+}
+
+.colorizeMe {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: center;
+  transition: transform .3s, filter 1s ease-in-out;
+  filter: grayscale(100%);
+}
+
+.colorizeMe:hover {
+  filter: grayscale(0);
+}
